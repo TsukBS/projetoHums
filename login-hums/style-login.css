@@ -8,7 +8,7 @@ html > body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/img-helicopter/ooa.jpg);
+    background-image: url(ooa.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
