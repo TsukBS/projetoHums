@@ -1,0 +1,17 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-fundo: rgb(76, 76, 167);
+    --cor-letra: white;
+}
+
+button{
+    all: unset;
+    cursor: pointer;
+}

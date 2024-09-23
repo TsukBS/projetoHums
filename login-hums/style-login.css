@@ -1,0 +1,74 @@
+html{
+    height: 100%;
+}
+
+
+html > body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img-helicopter/ooa.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+main{
+    width: 35%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 68, 0, 0.788);
+    border-radius: 5%;
+
+}
+
+#title{
+    margin: 5%;
+
+}
+
+h1{
+    font-size: 5dvh;
+    text-align: center;
+    color: var(--cor-letra);
+    
+}
+
+#login{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+label{
+    color: var(--cor-letra);
+    position: relative;
+    left: 2dvh;
+}
+
+#password{
+    border-radius: 2dvh;
+    padding: 1dvh;
+}
+
+#botao{
+    padding: 2%;
+    color: var(--cor-letra);
+    background-color: rgb(2, 2, 68);
+    border-radius: 3dvh;
+    margin: 3%;
+    box-shadow: black 1rem;
+}
+
+#botao:hover{
+    color: rgb(2, 2, 68);
+    background-color: white;
+    width: 4rem;
+    text-align: center;
+    
+}
